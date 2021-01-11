@@ -41,7 +41,7 @@ tabsParent.addEventListener('click', (e) => {
 
 const currentMonth = new Date().getMonth() + 1;
 
-const deadline = `2020-${currentMonth+1}-07T19:03:20`;
+const deadline = `2021-${currentMonth+1}-07T19:03:20`;
 
 const createTimeData = function (deadline) {
     const t = Date.parse(deadline) - new Date(),
